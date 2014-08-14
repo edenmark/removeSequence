@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>RemoveSequence by edenmark</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>RemoveSequence</h1>
+        <p>Removes a specified nucleotide sequence from the beginning of larger sequence. </p>
+        <p class="view"><a href="https://github.com/edenmark/removeSequence">View the Project on GitHub <small>edenmark/removeSequence</small></a></p>
+        <ul>
+          <li><a href="https://github.com/edenmark/removeSequence/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/edenmark/removeSequence/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/edenmark/removeSequence">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="welcome-to-removesequencepy" class="anchor" href="#welcome-to-removesequencepy"><span class="octicon octicon-link"></span></a>Welcome to removeSequence.py</h3>
+
+<h3>
+<a name="454-pyrosequencing" class="anchor" href="#454-pyrosequencing"><span class="octicon octicon-link"></span></a>454 Pyrosequencing</h3>
+
+<p>In this DNA sequence method, DNA nucleotides are sequenced by a 'sequencing by synthesis' approach, in which nucleotides in a sequence are detected by the release of a pyrophosphate. There are pros and cons to this method, which will not be discussed here. However, the result of this approach is hundreds or thousands of different reads, each roughly 200-400 bp long. In order to allow for identification of the sequences, barcodes and primers are added to the sequences. Sometimes, smaller 'fusion adaptor' sequences are added to the beginning of the sequence, which is really annoying because many sequence processing pipelines do not have a the ability to detect these fusion adaptors</p>
+
+<h3>
+<a name="removesequencepy" class="anchor" href="#removesequencepy"><span class="octicon octicon-link"></span></a>removeSequence.py</h3>
+
+<p>This program removes these uneccesary fusion adaptors or any other beginning sequence, given that you provide the FASTA file with the sequences and the sequence itself as a string.</p>
+
+<h3>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h3>
+
+<p>This program was created by Evan Denmark (<a href="https://github.com/edenmark" class="user-mention">@edenmark</a>) at the Woods Hole Oceanographic Institution. </p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/edenmark">edenmark</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
