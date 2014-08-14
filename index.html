@@ -38,7 +38,7 @@
 <h3>
 <a name="removesequencepy" class="anchor" href="#removesequencepy"><span class="octicon octicon-link"></span></a>removeSequence.py</h3>
 
-<p>This program removes these uneccesary fusion adaptors or any other beginning sequence, given that you provide the FASTA file with the sequences and the sequence itself as a string.</p>
+<p>This program is especially useful for remove fusion adaptors or other pre-barcode and pre-primer sequences before use of a processing pipeline that does not allow for distal barcodes and primers (a pipeline in which the barcodes and primers must be at the very beginning of the sequences). Some pipelines (ex. MBL's VAMPS) does not have the capability to check for distal barcodes/primers, so therefore many sequences will be thrown out because the pipeline doesn't recognize that there are sequences before the barcodes/primers. This program removes that beginning sequence.</p>
 
 <h3>
 <a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h3>
